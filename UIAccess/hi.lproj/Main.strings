@@ -1,0 +1,93 @@
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "1EA-6t-IEm"; */
+"1EA-6t-IEm.title" = "Settings";
+
+/* Class = "UIButton"; configuration.title = "Bacterial vaginosis"; ObjectID = "4pW-V4-Nro"; */
+"4pW-V4-Nro.configuration.title" = "Bacterial vaginosis";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4pW-V4-Nro"; */
+"4pW-V4-Nro.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "9k5-Mr-f0t"; */
+"9k5-Mr-f0t.placeholder" = "Search";
+
+/* Class = "UIButton"; configuration.title = "Arthritis"; ObjectID = "Egq-xW-Y6G"; */
+"Egq-xW-Y6G.configuration.title" = "Arthritis";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Egq-xW-Y6G"; */
+"Egq-xW-Y6G.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "**********"; ObjectID = "FLS-mA-ZBS"; */
+"FLS-mA-ZBS.placeholder" = "**********";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GNJ-rQ-Q0K"; */
+"GNJ-rQ-Q0K.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "IRK-jP-CMR"; */
+"IRK-jP-CMR.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Please log in again with your UIC email ID and password."; ObjectID = "LY5-AM-OC9"; */
+"LY5-AM-OC9.text" = "कृपया अपने यू आई सी ईमेल आईडी और पासवर्ड के साथ फिर से लॉग इन करें।";
+
+/* Class = "UIButton"; configuration.title = "Asthma"; ObjectID = "NMA-P3-xs9"; */
+"NMA-P3-xs9.configuration.title" = "Asthma";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "NMA-P3-xs9"; */
+"NMA-P3-xs9.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PM6-q9-ItO"; */
+"PM6-q9-ItO.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Late-Term Pregnancy"; ObjectID = "SDF-6P-pln"; */
+"SDF-6P-pln.configuration.title" = "Late-Term Pregnancy";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "SDF-6P-pln"; */
+"SDF-6P-pln.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Saved"; ObjectID = "VSF-Ir-DOZ"; */
+"VSF-Ir-DOZ.title" = "Saved";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Vpo-cU-uc6"; */
+"Vpo-cU-uc6.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aGG-AK-Xgf"; */
+"aGG-AK-Xgf.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Log in"; ObjectID = "bFQ-Dk-dFX"; */
+"bFQ-Dk-dFX.configuration.title" = "लॉग इन करें";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bFQ-Dk-dFX"; */
+"bFQ-Dk-dFX.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bJY-xc-Ffk"; */
+"bJY-xc-Ffk.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "fub-Pp-9tU"; */
+"fub-Pp-9tU.text" = "पासवर्ड";
+
+/* Class = "UIButton"; configuration.title = "Alzheimer’s Disease"; ObjectID = "hSf-4T-BfB"; */
+"hSf-4T-BfB.configuration.title" = "Alzheimer’s Disease";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hSf-4T-BfB"; */
+"hSf-4T-BfB.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "@uic.edu"; ObjectID = "hx8-Ka-0BP"; */
+"hx8-Ka-0BP.placeholder" = "@uic.edu";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "lGo-9f-Csi"; */
+"lGo-9f-Csi.title" = "Home";
+
+/* Class = "UIButton"; configuration.title = "AIDS (HIV/AIDS)"; ObjectID = "mqh-MS-y8X"; */
+"mqh-MS-y8X.configuration.title" = "AIDS (HIV/AIDS)";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "mqh-MS-y8X"; */
+"mqh-MS-y8X.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Log In"; ObjectID = "pDM-91-h4P"; */
+"pDM-91-h4P.text" = "लॉग इन करें";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "rdO-da-jlT"; */
+"rdO-da-jlT.text" = "उपयोगकर्ता नाम";
+
+/* Class = "UILabel"; text = "Home"; ObjectID = "yw1-P3-fTA"; */
+"yw1-P3-fTA.text" = "Home";

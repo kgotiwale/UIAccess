@@ -79,16 +79,12 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="8uQ-MN-xKb">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8uQ-MN-xKb">
                                         <rect key="frame" x="0.0" y="122" width="322" height="41"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fjz-Yq-OL5" customClass="CHIOTPFieldOne" customModule="UIAccess" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="322" height="41"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="265" id="4dd-GA-xP3"/>
-                                                    <constraint firstAttribute="height" constant="64" id="jlY-7w-51o"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                                 <textInputTraits key="textInputTraits"/>
                                                 <userDefinedRuntimeAttributes>
@@ -110,6 +106,9 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="fjz-Yq-OL5" firstAttribute="centerX" secondItem="8uQ-MN-xKb" secondAttribute="centerX" id="UjO-X1-dEs"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
                             </stackView>

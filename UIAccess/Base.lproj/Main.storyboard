@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="59" translatesAutoresizingMaskIntoConstraints="NO" id="Tpb-ip-Ua6">
-                                <rect key="frame" x="50" y="426" width="314" height="44.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="59" translatesAutoresizingMaskIntoConstraints="NO" id="Tpb-ip-Ua6">
+                                <rect key="frame" x="50" y="409" width="314" height="44.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="guO-ob-AXQ">
                                         <rect key="frame" x="0.0" y="0.0" width="127.5" height="44.5"/>
@@ -50,8 +50,8 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="bUn-rZ-HMT">
-                                <rect key="frame" x="46" y="187" width="322" height="97"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bUn-rZ-HMT">
+                                <rect key="frame" x="46" y="189" width="322" height="163"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5Ax-lq-jOP">
                                         <rect key="frame" x="0.0" y="0.0" width="322" height="41"/>
@@ -65,7 +65,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ehy-gu-dBw">
-                                        <rect key="frame" x="0.0" y="56" width="322" height="41"/>
+                                        <rect key="frame" x="0.0" y="61" width="322" height="41"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter the code sent to your UIC email ID here" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSd-d4-m21">
                                                 <rect key="frame" x="0.0" y="0.0" width="322" height="41"/>
@@ -79,39 +79,52 @@
                                             </label>
                                         </subviews>
                                     </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="8uQ-MN-xKb">
+                                        <rect key="frame" x="0.0" y="122" width="322" height="41"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fjz-Yq-OL5" customClass="CHIOTPFieldOne" customModule="UIAccess" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="322" height="41"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="265" id="4dd-GA-xP3"/>
+                                                    <constraint firstAttribute="height" constant="64" id="jlY-7w-51o"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfDigits">
+                                                        <integer key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="8"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" systemColor="systemGray5Color"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="boxBackgroundColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="activeShadowOpacity">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1ZE-ad-e3e" customClass="CHIOTPFieldOne" customModule="UIAccess" customModuleProvider="target">
-                                <rect key="frame" x="110" y="324" width="195" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfDigits">
-                                        <integer key="value" value="4"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="boxBackgroundColor">
-                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" systemColor="systemGray5Color"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="8"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="activeShadowOpacity">
-                                        <real key="value" value="0.29999999999999999"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Asu-jw-Qq6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="bUn-rZ-HMT" firstAttribute="centerX" secondItem="XFr-8y-Xgy" secondAttribute="centerX" id="Eze-4s-5lC"/>
-                            <constraint firstItem="Asu-jw-Qq6" firstAttribute="trailing" secondItem="bUn-rZ-HMT" secondAttribute="trailing" constant="46" id="WOP-0c-Nzr"/>
-                            <constraint firstItem="bUn-rZ-HMT" firstAttribute="leading" secondItem="Asu-jw-Qq6" secondAttribute="leading" constant="46" id="iNJ-Hs-iz7"/>
-                            <constraint firstItem="bUn-rZ-HMT" firstAttribute="top" secondItem="Asu-jw-Qq6" secondAttribute="top" constant="143" id="uxD-S0-vSx"/>
+                            <constraint firstItem="Tpb-ip-Ua6" firstAttribute="leading" secondItem="Asu-jw-Qq6" secondAttribute="leading" constant="50" id="1x4-oV-OIC"/>
+                            <constraint firstItem="bUn-rZ-HMT" firstAttribute="top" secondItem="Asu-jw-Qq6" secondAttribute="top" constant="145" id="5wu-sk-qSB"/>
+                            <constraint firstItem="Tpb-ip-Ua6" firstAttribute="centerX" secondItem="XFr-8y-Xgy" secondAttribute="centerX" id="7li-On-ZEN"/>
+                            <constraint firstItem="bUn-rZ-HMT" firstAttribute="leading" secondItem="Asu-jw-Qq6" secondAttribute="leading" constant="46" id="Jqm-LU-gi3"/>
+                            <constraint firstItem="Asu-jw-Qq6" firstAttribute="trailing" secondItem="bUn-rZ-HMT" secondAttribute="trailing" constant="46" id="Pbm-Tl-Cx8"/>
+                            <constraint firstItem="Asu-jw-Qq6" firstAttribute="trailing" secondItem="Tpb-ip-Ua6" secondAttribute="trailing" constant="50" id="YzZ-xC-jJR"/>
+                            <constraint firstItem="bUn-rZ-HMT" firstAttribute="centerX" secondItem="XFr-8y-Xgy" secondAttribute="centerX" id="neP-33-XLG"/>
+                            <constraint firstItem="Tpb-ip-Ua6" firstAttribute="top" secondItem="bUn-rZ-HMT" secondAttribute="bottom" constant="57" id="vUa-zF-9ho"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -143,7 +156,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fub-Pp-9tU">
-                                <rect key="frame" x="58" y="445" width="141" height="21"/>
+                                <rect key="frame" x="58" y="445" width="141" height="20.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="141" id="OVq-jS-SkT"/>
                                 </constraints>
@@ -161,7 +174,7 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="continue" textContentType="email"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="**********" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FLS-mA-ZBS">
-                                <rect key="frame" x="58" y="474" width="302" height="34"/>
+                                <rect key="frame" x="58" y="473.5" width="302" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="302" id="ZFl-es-e5J"/>
                                     <constraint firstAttribute="height" constant="34" id="fIb-pH-KTS"/>
@@ -170,7 +183,7 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bFQ-Dk-dFX">
-                                <rect key="frame" x="223" y="548" width="137" height="38"/>
+                                <rect key="frame" x="223" y="547.5" width="137" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="137" id="hnL-CZ-s9d"/>
                                     <constraint firstAttribute="height" constant="38" id="omK-Gy-l5Q"/>
@@ -542,6 +555,11 @@
             <point key="canvasLocation" x="1895.6521739130437" y="766.74107142857144"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="fjz-Yq-OL5">
+            <size key="intrinsicContentSize" width="6" height="30.5"/>
+        </designable>
+    </designables>
     <resources>
         <image name="Arrow" width="20" height="20"/>
         <image name="Home" width="20" height="20"/>

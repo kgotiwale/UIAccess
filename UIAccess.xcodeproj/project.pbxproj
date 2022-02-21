@@ -13,6 +13,11 @@
 		330AB46227C3003200779450 /* CHIOTPField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330AB46127C3003200779450 /* CHIOTPField.swift */; };
 		330AB46427C3003900779450 /* OTPLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330AB46327C3003900779450 /* OTPLabel.swift */; };
 		330AB46627C3088900779450 /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330AB46527C3088900779450 /* VerifyViewController.swift */; };
+		330AB46827C3398700779450 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330AB46727C3398700779450 /* LoginViewController.swift */; };
+		330AB46A27C3405400779450 /* SwiftyOnboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330AB46927C3405400779450 /* SwiftyOnboard.swift */; };
+		330AB46C27C3405D00779450 /* SwiftyOnboardOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330AB46B27C3405D00779450 /* SwiftyOnboardOverlay.swift */; };
+		330AB46E27C3406400779450 /* SwiftyOnboardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330AB46D27C3406400779450 /* SwiftyOnboardPage.swift */; };
+		330AB47027C3409400779450 /* OnBoard1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330AB46F27C3409400779450 /* OnBoard1ViewController.swift */; };
 		335D1AA127AC9B170067C0D4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335D1AA027AC9B170067C0D4 /* Item.swift */; };
 		335D1AA327ACA8E20067C0D4 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335D1AA227ACA8E20067C0D4 /* ItemStore.swift */; };
 		336CCE50274C434700825F53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336CCE4F274C434700825F53 /* AppDelegate.swift */; };
@@ -52,6 +57,11 @@
 		330AB46127C3003200779450 /* CHIOTPField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHIOTPField.swift; sourceTree = "<group>"; };
 		330AB46327C3003900779450 /* OTPLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPLabel.swift; sourceTree = "<group>"; };
 		330AB46527C3088900779450 /* VerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
+		330AB46727C3398700779450 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		330AB46927C3405400779450 /* SwiftyOnboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyOnboard.swift; sourceTree = "<group>"; };
+		330AB46B27C3405D00779450 /* SwiftyOnboardOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyOnboardOverlay.swift; sourceTree = "<group>"; };
+		330AB46D27C3406400779450 /* SwiftyOnboardPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyOnboardPage.swift; sourceTree = "<group>"; };
+		330AB46F27C3409400779450 /* OnBoard1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoard1ViewController.swift; sourceTree = "<group>"; };
 		335D1AA027AC9B170067C0D4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		335D1AA227ACA8E20067C0D4 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 		336CCE4C274C434700825F53 /* UIAccess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIAccess.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,8 +132,10 @@
 				336CCE4F274C434700825F53 /* AppDelegate.swift */,
 				336CCE51274C434700825F53 /* SceneDelegate.swift */,
 				330AB46527C3088900779450 /* VerifyViewController.swift */,
-				336CCE53274C434700825F53 /* ViewController.swift */,
+				330AB46727C3398700779450 /* LoginViewController.swift */,
 				330AB45627C2F2AA00779450 /* CodeViewController.swift */,
+				330AB46F27C3409400779450 /* OnBoard1ViewController.swift */,
+				336CCE53274C434700825F53 /* ViewController.swift */,
 				33AFA76327B76E430036A45E /* Search.swift */,
 				335D1AA027AC9B170067C0D4 /* Item.swift */,
 				335D1AA227ACA8E20067C0D4 /* ItemStore.swift */,
@@ -136,6 +148,9 @@
 				330AB46327C3003900779450 /* OTPLabel.swift */,
 				330AB45C27C3001A00779450 /* CHIOTPFieldOne.swift */,
 				330AB45E27C3002300779450 /* CHIOTPFieldOneLabel.swift */,
+				330AB46927C3405400779450 /* SwiftyOnboard.swift */,
+				330AB46B27C3405D00779450 /* SwiftyOnboardOverlay.swift */,
+				330AB46D27C3406400779450 /* SwiftyOnboardPage.swift */,
 			);
 			path = UIAccess;
 			sourceTree = "<group>";
@@ -290,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				336CCE54274C434700825F53 /* ViewController.swift in Sources */,
+				330AB46C27C3405D00779450 /* SwiftyOnboardOverlay.swift in Sources */,
 				330AB45727C2F2AA00779450 /* CodeViewController.swift in Sources */,
 				335D1AA327ACA8E20067C0D4 /* ItemStore.swift in Sources */,
 				335D1AA127AC9B170067C0D4 /* Item.swift in Sources */,
@@ -298,9 +314,13 @@
 				330AB46427C3003900779450 /* OTPLabel.swift in Sources */,
 				336CCE50274C434700825F53 /* AppDelegate.swift in Sources */,
 				336CCE52274C434700825F53 /* SceneDelegate.swift in Sources */,
+				330AB47027C3409400779450 /* OnBoard1ViewController.swift in Sources */,
+				330AB46E27C3406400779450 /* SwiftyOnboardPage.swift in Sources */,
 				330AB46627C3088900779450 /* VerifyViewController.swift in Sources */,
 				330AB45F27C3002300779450 /* CHIOTPFieldOneLabel.swift in Sources */,
+				330AB46827C3398700779450 /* LoginViewController.swift in Sources */,
 				330AB46227C3003200779450 /* CHIOTPField.swift in Sources */,
+				330AB46A27C3405400779450 /* SwiftyOnboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -216,6 +216,9 @@
                             <constraint firstItem="Tpb-ip-Ua6" firstAttribute="top" secondItem="bUn-rZ-HMT" secondAttribute="bottom" constant="57" id="vUa-zF-9ho"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="field" destination="fjz-Yq-OL5" id="xER-WH-UlG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jt9-g6-FVh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

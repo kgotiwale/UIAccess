@@ -14,6 +14,11 @@ class CodeViewController: UIViewController {
         self.view.endEditing(true)
     }
     
+    @IBOutlet var field: UITextField!
+    
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

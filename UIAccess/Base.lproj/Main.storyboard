@@ -67,7 +67,6 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Tc-kW-FUQ">
                                         <rect key="frame" x="0.0" y="185" width="343" height="47"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="118" id="5Ov-Cg-Dd9"/>
                                             <constraint firstAttribute="height" constant="47" id="VD1-Tx-bqU"/>
                                         </constraints>
                                         <buttonConfiguration key="configuration" style="filled" title="Send Code" cornerStyle="capsule">
@@ -369,13 +368,6 @@
                                 </items>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tabBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yw1-P3-fTA">
-                                <rect key="frame" x="42" y="66" width="111" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
-                                <color key="textColor" red="0.13333333333333333" green="0.26666666666666666" blue="0.40784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcr-Jd-Rfp">
                                 <rect key="frame" x="340" y="128" width="46" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -495,11 +487,12 @@
                             <outletCollection property="gestureRecognizers" destination="SfM-la-deX" appends="YES" id="WaA-Yr-cDP"/>
                         </connections>
                     </view>
+                    <navigationItem key="navigationItem" id="8tq-yz-ReA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="SfM-la-deX"/>
             </objects>
-            <point key="canvasLocation" x="273.91304347826087" y="77.678571428571431"/>
+            <point key="canvasLocation" x="1184.0579710144928" y="77.678571428571431"/>
         </scene>
         <!--Updates View Controller-->
         <scene sceneID="61f-eI-KqH">
@@ -603,7 +596,7 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="kRB-vD-fa1" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TtA-d0-9Mq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1099" y="78"/>
+            <point key="canvasLocation" x="2008.6956521739132" y="77.678571428571431"/>
         </scene>
         <!--Saved-->
         <scene sceneID="gJO-Hz-EJx">
@@ -618,7 +611,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0uB-XL-Jvz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1896" y="78"/>
+            <point key="canvasLocation" x="2805.7971014492755" y="77.678571428571431"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="DzQ-yA-W70">
@@ -655,6 +648,27 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nyt-nE-8X8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1895.6521739130437" y="766.74107142857144"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="EbF-MW-QbW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PNi-0A-LCC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Sq8-oy-BIH">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.16779720779999999" green="0.2641669512" blue="0.39569795130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="XN5-la-Emo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LD3-W9-KQ6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="273.91304347826087" y="77.678571428571431"/>
         </scene>
     </scenes>
     <designables>

@@ -340,7 +340,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tAC-7b-zEV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2808.6956521739135" y="-824.33035714285711"/>
+            <point key="canvasLocation" x="2701" y="-824"/>
         </scene>
         <!--Home-->
         <scene sceneID="tne-QT-ifu">
@@ -364,14 +364,17 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="-59" translatesAutoresizingMaskIntoConstraints="NO" id="zV7-PU-d1B">
                                 <rect key="frame" x="20" y="140" width="374" height="51"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JbI-oz-9Qq">
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JbI-oz-9Qq">
                                         <rect key="frame" x="0.0" y="0.0" width="328" height="51"/>
                                         <subviews>
-                                            <searchBar contentMode="redraw" ambiguous="YES" searchBarStyle="minimal" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="MrK-iq-OUe">
+                                            <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="MrK-iq-OUe">
                                                 <rect key="frame" x="0.0" y="0.0" width="328" height="51"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </searchBar>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="328" id="fw9-tZ-SB1"/>
+                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gus-zV-RC4">
                                         <rect key="frame" x="328" y="0.0" width="46" height="51"/>
@@ -388,55 +391,83 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Fym-AS-C1K">
-                                <rect key="frame" x="20" y="211" width="163" height="155"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="Fym-AS-C1K">
+                                <rect key="frame" x="20" y="211" width="374" height="561"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kly-Ap-DGV">
-                                        <rect key="frame" x="0.0" y="0.0" width="163" height="31"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSg-FH-QO4">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="66"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="374" id="65h-TC-77S"/>
+                                            <constraint firstAttribute="height" constant="66" id="Vkp-cW-l8k"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="AIDS (HIV/AIDS)" cornerStyle="medium">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="baseBackgroundColor" red="0.1333333333" green="0.69019607839999997" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kly-Ap-DGV">
+                                        <rect key="frame" x="0.0" y="99" width="374" height="66"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="66" id="8DS-t1-eNZ"/>
+                                            <constraint firstAttribute="width" constant="374" id="WUt-Zh-n4F"/>
+                                        </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Alzheimer's Disease" cornerStyle="medium">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
                                             <color key="baseBackgroundColor" red="0.1333333333" green="0.69019607839999997" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nbr-pC-4ST">
-                                        <rect key="frame" x="0.0" y="31" width="163" height="31"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nbr-pC-4ST">
+                                        <rect key="frame" x="0.0" y="198" width="374" height="66"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="66" id="hl8-V4-NBO"/>
+                                            <constraint firstAttribute="width" constant="374" id="ro8-vO-pPu"/>
+                                        </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Arthritis" cornerStyle="medium">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
                                             <color key="baseBackgroundColor" red="0.1333333333" green="0.69019607839999997" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ffm-Tg-gDl">
-                                        <rect key="frame" x="0.0" y="62" width="163" height="31"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ffm-Tg-gDl">
+                                        <rect key="frame" x="0.0" y="297" width="374" height="66"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="374" id="N1U-Jz-Kht"/>
+                                            <constraint firstAttribute="height" constant="66" id="NWS-Qg-j9M"/>
+                                        </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Asthma" cornerStyle="medium">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
                                             <color key="baseBackgroundColor" red="0.1333333333" green="0.69019607839999997" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xhr-wj-Lc6">
-                                        <rect key="frame" x="0.0" y="93" width="163" height="31"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xhr-wj-Lc6">
+                                        <rect key="frame" x="0.0" y="396" width="374" height="66"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="374" id="Tbo-tX-5fP"/>
+                                            <constraint firstAttribute="height" constant="66" id="X9l-sB-HMT"/>
+                                        </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Late-Term Pregnancy" cornerStyle="medium">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
                                             <color key="baseBackgroundColor" red="0.1333333333" green="0.69019607839999997" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kf-5T-8gJ">
-                                        <rect key="frame" x="0.0" y="124" width="163" height="31"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kf-5T-8gJ">
+                                        <rect key="frame" x="0.0" y="495" width="374" height="66"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="66" id="2k8-vw-gXW"/>
+                                            <constraint firstAttribute="width" constant="374" id="obX-6f-Rje"/>
+                                        </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Bacterial Vaginosis" cornerStyle="medium">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
                                             <color key="baseBackgroundColor" red="0.1333333333" green="0.69019607839999997" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSg-FH-QO4">
-                                <rect key="frame" x="20" y="445" width="374" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="AIDS (HIV/AIDS)" cornerStyle="medium">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
-                                    <color key="baseBackgroundColor" red="0.1333333333" green="0.69019607839999997" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -456,7 +487,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="SfM-la-deX"/>
             </objects>
-            <point key="canvasLocation" x="1182.608695652174" y="77.678571428571431"/>
+            <point key="canvasLocation" x="1082.608695652174" y="77.678571428571431"/>
         </scene>
         <!--Updates View Controller-->
         <scene sceneID="61f-eI-KqH">
@@ -554,6 +585,28 @@
             </objects>
             <point key="canvasLocation" x="274" y="767"/>
         </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="rim-PB-7Fe">
+            <objects>
+                <viewController id="NPq-0L-u91" customClass="DetailViewController" customModule="UIAccess" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gK1-sV-Xpe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cervical Ripening for Induction of Labor 4.2021 (OB-I 3.15)" translatesAutoresizingMaskIntoConstraints="NO" id="xZa-1K-NDC">
+                                <rect key="frame" x="20" y="70" width="374" height="792"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EJ5-X1-m5S"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YQJ-cX-KvS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rrB-NY-HRb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2701" y="78"/>
+        </scene>
         <!--Page View Controller-->
         <scene sceneID="iIq-58-Jjd">
             <objects>
@@ -562,124 +615,93 @@
             </objects>
             <point key="canvasLocation" x="3445" y="78"/>
         </scene>
-        <!--Saved-->
+        <!--Save View Cotroller-->
         <scene sceneID="gJO-Hz-EJx">
             <objects>
-                <viewController id="ddA-d3-3n6" customClass="Saved" sceneMemberID="viewController">
+                <viewController id="ddA-d3-3n6" customClass="SaveViewCotroller" customModule="UIAccess" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q8p-ng-ULC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGG-AK-Xgf">
-                                <rect key="frame" x="32" y="382" width="350" height="70"/>
+                            <tableView clipsSubviews="YES" contentMode="center" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="11" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="qAf-rw-pik" customClass="table">
+                                <rect key="frame" x="0.0" y="246" width="414" height="616"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.050000000000000003"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="MEf-1t-szk"/>
+                                </constraints>
+                                <color key="separatorColor" red="0.40784313729999999" green="0.51372549020000002" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableViewCellID" rowHeight="70" id="5tt-cL-25o" customClass="tableViewCell" customModule="UIAccess_Saved" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5tt-cL-25o" id="g4Q-M3-U1F">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pdf-page" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kqD-hZ-TCG">
+                                                    <rect key="frame" x="20" y="-497.90677966101703" width="24.999999999999957" height="1060"/>
+                                                    <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWe-2k-t3g">
+                                                    <rect key="frame" x="81" y="41" width="333" height="18"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDA-p9-Pwf">
+                                                    <rect key="frame" x="81" y="11" width="194" height="16"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.69803921570000005" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="kqD-hZ-TCG" secondAttribute="trailing" constant="20" id="9i4-6b-iIe"/>
+                                                <constraint firstItem="hWe-2k-t3g" firstAttribute="centerX" secondItem="g4Q-M3-U1F" secondAttribute="centerX" id="Dhg-Hg-sls"/>
+                                                <constraint firstItem="hWe-2k-t3g" firstAttribute="centerY" secondItem="g4Q-M3-U1F" secondAttribute="centerY" id="Fvn-Vn-yT4"/>
+                                                <constraint firstItem="hWe-2k-t3g" firstAttribute="centerY" secondItem="g4Q-M3-U1F" secondAttribute="centerY" id="GEJ-sV-EYG"/>
+                                                <constraint firstItem="kqD-hZ-TCG" firstAttribute="leading" secondItem="g4Q-M3-U1F" secondAttribute="leading" constant="20" symbolic="YES" id="KUd-76-x3E"/>
+                                                <constraint firstItem="hWe-2k-t3g" firstAttribute="leading" secondItem="g4Q-M3-U1F" secondAttribute="leading" constant="86" id="QyV-IF-Gzo"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hWe-2k-t3g" secondAttribute="trailing" constant="20" symbolic="YES" id="Rtf-yp-fKf"/>
+                                                <constraint firstItem="bDA-p9-Pwf" firstAttribute="leading" secondItem="hWe-2k-t3g" secondAttribute="leading" id="bCc-tv-2u0"/>
+                                                <constraint firstItem="kqD-hZ-TCG" firstAttribute="width" secondItem="g4Q-M3-U1F" secondAttribute="height" multiplier="41:55" id="cs3-5D-jAj"/>
+                                                <constraint firstItem="kqD-hZ-TCG" firstAttribute="centerY" secondItem="g4Q-M3-U1F" secondAttribute="centerY" id="kFd-5N-EyN"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="FileOne" destination="hWe-2k-t3g" id="f5q-Vz-YBx"/>
+                                            <outlet property="ImgOne" destination="kqD-hZ-TCG" id="1sq-py-G1S"/>
+                                            <outlet property="TitleOne" destination="bDA-p9-Pwf" id="fhS-fe-ANV"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Saved" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRT-qd-Q0z">
+                                <rect key="frame" x="31" y="69" width="103" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="fixed">
-                                    <color key="baseBackgroundColor" red="0.1333333333" green="0.2666666667" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egq-xW-Y6G">
-                                <rect key="frame" x="32" y="375" width="350" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="Arrow" imagePlacement="trailing" title="Arthritis" imagePadding="225" cornerStyle="fixed" titleAlignment="automatic">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
-                                    <color key="baseBackgroundColor" red="0.13333333333333333" green="0.69019607843137254" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vpo-cU-uc6">
-                                <rect key="frame" x="32" y="489" width="350" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="fixed">
-                                    <color key="baseBackgroundColor" red="0.1333333333" green="0.2666666667" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMA-P3-xs9">
-                                <rect key="frame" x="32" y="481" width="350" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="Arrow" imagePlacement="trailing" title="Asthma" imagePadding="230" cornerStyle="fixed" titleAlignment="automatic">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
-                                    <color key="baseBackgroundColor" red="0.13333333333333333" green="0.69019607843137254" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNJ-rQ-Q0K">
-                                <rect key="frame" x="32" y="599" width="350" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="fixed">
-                                    <color key="baseBackgroundColor" red="0.1333333333" green="0.2666666667" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SDF-6P-pln">
-                                <rect key="frame" x="32" y="591" width="350" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="Arrow" imagePlacement="trailing" title="Late-Term Pregnancy" imagePadding="100" cornerStyle="fixed" titleAlignment="automatic">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
-                                    <color key="baseBackgroundColor" red="0.13333333333333333" green="0.69019607843137254" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRK-jP-CMR">
-                                <rect key="frame" x="32" y="277" width="350" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="fixed">
-                                    <color key="baseBackgroundColor" red="0.1333333333" green="0.2666666667" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSf-4T-BfB">
-                                <rect key="frame" x="32" y="270" width="350" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="Arrow" imagePlacement="trailing" title="Alzheimer’s Disease" imagePadding="110" cornerStyle="fixed" titleAlignment="automatic">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
-                                    <color key="baseBackgroundColor" red="0.13333333333333333" green="0.69019607843137254" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJY-xc-Ffk">
-                                <rect key="frame" x="32" y="711" width="350" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="fixed">
-                                    <color key="baseBackgroundColor" red="0.1333333333" green="0.2666666667" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pW-V4-Nro">
-                                <rect key="frame" x="32" y="702" width="350" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="Arrow" imagePlacement="trailing" title="Bacterial vaginosis" imagePadding="125" cornerStyle="fixed" titleAlignment="automatic">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
-                                    <color key="baseBackgroundColor" red="0.13333333333333333" green="0.69019607843137254" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PM6-q9-ItO">
-                                <rect key="frame" x="32" y="208" width="350" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="fixed">
-                                    <color key="baseBackgroundColor" red="0.13333333333333333" green="0.26666666666666666" blue="0.40784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqh-MS-y8X">
-                                <rect key="frame" x="32" y="201" width="350" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="Arrow" imagePlacement="trailing" title="AIDS (HIV/AIDS)" imagePadding="150" cornerStyle="fixed" titleAlignment="automatic">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
-                                    <color key="baseBackgroundColor" red="0.13333333333333333" green="0.69019607843137254" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.69803921570000005" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <searchBar contentMode="redraw" fixedFrame="YES" searchBarStyle="minimal" placeholder="Search" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWr-Yz-JFk">
+                                <rect key="frame" x="31" y="160" width="352" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Osg-5y-8cy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="savedTableView" destination="qAf-rw-pik" id="fey-cI-UNb"/>
+                        <segue destination="NPq-0L-u91" kind="show" id="ftS-xa-Tua"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0uB-XL-Jvz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1972" y="78"/>
+            <point key="canvasLocation" x="1887" y="78"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="DzQ-yA-W70">
@@ -715,7 +737,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nyt-nE-8X8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1895.6521739130437" y="766.74107142857144"/>
+            <point key="canvasLocation" x="1183" y="767"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EbF-MW-QbW">
@@ -745,7 +767,7 @@
         </designable>
     </designables>
     <resources>
-        <image name="Arrow" width="20" height="20"/>
+        <image name="Cervical Ripening for Induction of Labor 4.2021 (OB-I 3.15)" width="612" height="792"/>
         <image name="Home" width="20" height="20"/>
         <image name="Homegrey" width="20" height="20"/>
         <image name="Saved" width="20" height="20"/>
@@ -753,6 +775,7 @@
         <image name="Setting" width="20" height="20"/>
         <image name="Settinggrey" width="20" height="20"/>
         <image name="Updates-2" width="22" height="22"/>
+        <image name="pdf-page" width="812" height="1071"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

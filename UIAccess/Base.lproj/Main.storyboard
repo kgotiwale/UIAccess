@@ -361,7 +361,11 @@
                                         <subviews>
                                             <searchBar contentMode="redraw" horizontalHuggingPriority="249" searchBarStyle="minimal" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="MrK-iq-OUe">
                                                 <rect key="frame" x="0.0" y="0.0" width="328" height="51"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="go"/>
+                                                <scopeButtonTitles>
+                                                    <string>Title</string>
+                                                    <string>Title</string>
+                                                </scopeButtonTitles>
                                             </searchBar>
                                         </subviews>
                                     </stackView>
@@ -493,7 +497,7 @@
         <!--AIDS(HIV/AIDS)-->
         <scene sceneID="V1B-77-O9a">
             <objects>
-                <viewController id="IaH-hu-bDV" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="IaH-hu-bDV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OpQ-3F-ieP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -732,7 +736,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nyt-nE-8X8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1183" y="767"/>
+            <point key="canvasLocation" x="4703" y="795"/>
         </scene>
         <!--Home-->
         <scene sceneID="Iz5-y5-K3x">

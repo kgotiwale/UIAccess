@@ -398,7 +398,7 @@
                                             <color key="baseBackgroundColor" red="0.1333333333" green="0.69019607839999997" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="IaH-hu-bDV" kind="presentation" modalPresentationStyle="fullScreen" id="wl5-Y8-18T"/>
+                                            <segue destination="IaH-hu-bDV" kind="show" id="I5X-dS-gQj"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kly-Ap-DGV">
@@ -490,7 +490,7 @@
             </objects>
             <point key="canvasLocation" x="3813.04347826087" y="77.678571428571431"/>
         </scene>
-        <!--View Controller-->
+        <!--AIDS(HIV/AIDS)-->
         <scene sceneID="V1B-77-O9a">
             <objects>
                 <viewController id="IaH-hu-bDV" sceneMemberID="viewController">
@@ -500,6 +500,7 @@
                         <viewLayoutGuide key="safeArea" id="mCh-Kd-EcJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="AIDS(HIV/AIDS)" id="c9I-IS-fOn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8lt-hp-6f6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -508,7 +509,7 @@
         <!--Updates-->
         <scene sceneID="61f-eI-KqH">
             <objects>
-                <tableViewController id="GGp-R4-PXY" customClass="UpdatesViewController" customModule="UIAccess" sceneMemberID="viewController">
+                <tableViewController hidesBottomBarWhenPushed="YES" id="GGp-R4-PXY" customClass="UpdatesViewController" customModule="UIAccess" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Wml-Tn-KfD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -765,6 +766,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="vSN-UV-14I" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yof-ij-HdQ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

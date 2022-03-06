@@ -13,11 +13,14 @@ class File {
     var name2 : String!
     var name3 : String!
     var imageName: String!
+    var imageName2: String!
     
-    public init(name:String, name2:String, imageName:String)
+    public init(name:String, name2:String, name3:String, imageName:String, imageName2:String)
     {
         self.name = name
         self.name2 = name2
+        self.name3 = name3
         self.imageName = imageName
+        self.imageName2 = imageName2
     }
 }

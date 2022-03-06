@@ -10,10 +10,13 @@ import UIKit
 class tableViewCell : UITableViewCell {
     
     
-    @IBOutlet weak var TitleOne: UILabel!
+    @IBOutlet weak var CategoryOne: UILabel!
     
-    @IBOutlet weak var FileOne: UILabel!
+    @IBOutlet weak var TitleOne: UILabel!
     
     @IBOutlet weak var ImgOne: UIImageView!
     
+    @IBOutlet weak var DateOne: UILabel!
+
+    @IBOutlet weak var ImgTwo: UIImageView!
 }

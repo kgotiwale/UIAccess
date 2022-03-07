@@ -406,7 +406,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kly-Ap-DGV">
-                                        <rect key="frame" x="0.0" y="99" width="374" height="66"/>
+                                        <rect key="frame" x="0.0" y="82.5" width="374" height="66"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="66" id="8DS-t1-eNZ"/>
                                             <constraint firstAttribute="width" constant="374" id="WUt-Zh-n4F"/>
@@ -421,7 +421,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nbr-pC-4ST">
-                                        <rect key="frame" x="0.0" y="198" width="374" height="66"/>
+                                        <rect key="frame" x="0.0" y="165" width="374" height="66"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="66" id="hl8-V4-NBO"/>
                                             <constraint firstAttribute="width" constant="374" id="ro8-vO-pPu"/>
@@ -436,7 +436,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ffm-Tg-gDl">
-                                        <rect key="frame" x="0.0" y="297" width="374" height="66"/>
+                                        <rect key="frame" x="0.0" y="247.5" width="374" height="66"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="374" id="N1U-Jz-Kht"/>
                                             <constraint firstAttribute="height" constant="66" id="NWS-Qg-j9M"/>
@@ -451,7 +451,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xhr-wj-Lc6">
-                                        <rect key="frame" x="0.0" y="396" width="374" height="66"/>
+                                        <rect key="frame" x="0.0" y="330" width="374" height="66"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="374" id="Tbo-tX-5fP"/>
                                             <constraint firstAttribute="height" constant="66" id="X9l-sB-HMT"/>
@@ -466,7 +466,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kf-5T-8gJ">
-                                        <rect key="frame" x="0.0" y="495" width="374" height="66"/>
+                                        <rect key="frame" x="0.0" y="412.5" width="374" height="66"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="66" id="2k8-vw-gXW"/>
                                             <constraint firstAttribute="width" constant="374" id="obX-6f-Rje"/>
@@ -478,6 +478,21 @@
                                         </buttonConfiguration>
                                         <connections>
                                             <segue destination="Fd4-5z-dia" kind="show" id="e0I-ZR-4lo"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2Q-BR-tqu">
+                                        <rect key="frame" x="0.0" y="495" width="374" height="66"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="374" id="4vX-9q-De2"/>
+                                            <constraint firstAttribute="height" constant="66" id="poM-rj-dN7"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Others" cornerStyle="medium">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="baseBackgroundColor" red="0.1333333333" green="0.69019607839999997" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="eLQ-fB-ohn" kind="show" id="wKB-an-nNt"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -605,6 +620,22 @@
             </objects>
             <point key="canvasLocation" x="8278" y="-616"/>
         </scene>
+        <!--Others-->
+        <scene sceneID="bxU-cz-tZn">
+            <objects>
+                <viewController id="eLQ-fB-ohn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3iv-WE-eh6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="sln-sL-1nu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Others" id="wEY-TW-0iZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X7D-fG-DJi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8997" y="-616"/>
+        </scene>
         <!--Updates-->
         <scene sceneID="61f-eI-KqH">
             <objects>
@@ -677,30 +708,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pvv-n0-Eck" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3812" y="-890"/>
-        </scene>
-        <!--Page View Controller-->
-        <scene sceneID="iIq-58-Jjd">
-            <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="kRB-vD-fa1" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TtA-d0-9Mq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6860.8695652173919" y="1331.9196428571429"/>
-        </scene>
-        <!--Settings-->
-        <scene sceneID="JDf-zg-BUo">
-            <objects>
-                <viewController id="2Xg-rg-eWE" customClass="SettingsViewController" customModule="UIAccess" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ss6-Kl-ALd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="xO4-8G-wtF"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Settings" id="QBi-6O-mFJ"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="t7s-XW-sGc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5513" y="873"/>
         </scene>
         <!--Settings-->
         <scene sceneID="bqG-Qz-0Pg">
@@ -1067,7 +1074,6 @@
         <!--Saved-->
         <scene sceneID="aRL-fo-dVZ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Uh9-i9-FNy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="seo-Rg-aUK" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Saved" image="Savedgrey" selectedImage="Saved" id="CqF-a0-dSB"/>
                     <toolbarItems/>
@@ -1083,6 +1089,7 @@
                         <segue destination="iJm-vR-Kp3" kind="relationship" relationship="rootViewController" id="gZ7-e5-Hej"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uh9-i9-FNy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="380" y="873"/>
         </scene>
